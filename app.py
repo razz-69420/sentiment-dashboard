@@ -28,8 +28,8 @@ airlines = st.sidebar.multiselect(
 )
 sentiments = st.sidebar.multiselect(
     "Select Sentiment",
-    options=["Positive", "Neutral", "Negative"],
-    default=["Positive", "Neutral", "Negative"]
+    options=["positive", "neutral", "negative"],
+    default=["positive", "neutral", "negative"]
 )
 
 filtered_df = df[
@@ -40,13 +40,13 @@ filtered_df = df[
 # ── KPI row ──────────────────────────────────────────────
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Total Tweets", f"{len(filtered_df):,}")
-col2.metric("Positive", f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'Positive']):,}")
-col3.metric("Neutral",   f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'Neutral']):,}")
-col4.metric("Negative",  f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'Negative']):,}")
+col2.metric("Positive", f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'positive']):,}")
+col3.metric("Neutral",   f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'neutral']):,}")
+col4.metric("Negative",  f"{len(filtered_df[filtered_df['predicted_sentiment'] == 'negative']):,}")
 st.divider()
 
 # ── Charts ───────────────────────────────────────────────
-color_map = {"Positive": "#2ecc71", "Neutral": "#3498db", "Negative": "#e74c3c"}
+color_map = {"Positive":"#2ecc71", "Neutral":"#3498db", "Negative":"#e74c3c"}
 
 col_a, col_b = st.columns(2)
 
