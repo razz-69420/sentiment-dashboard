@@ -1,0 +1,5 @@
+archive.zip
+database.sqlite
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
