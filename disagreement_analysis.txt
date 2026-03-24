@@ -1,0 +1,23 @@
+SENTIMENT MODEL — DISAGREEMENT ANALYSIS
+========================================
+
+Model agrees with original labels: 76.9%
+Disagreement rate: 23.1%
+
+TOP 3 DISAGREEMENT EXAMPLES
+-----------------------------
+
+Example 1:
+  Tweet:          @VirginAmerica plus you've added commercials to the experience... tacky.
+  Original label: positive
+  Model label:    negative
+
+Example 2:
+  Tweet:          @VirginAmerica yes, nearly every time I fly VX this “ear worm” won’t go away :)
+  Original label: positive
+  Model label:    negative
+
+Example 3:
+  Tweet:          @VirginAmerica Really missed a prime opportunity for Men Without Hats parody, there. https://t.co/mWpG7grEZP
+  Original label: neutral
+  Model label:    negative
