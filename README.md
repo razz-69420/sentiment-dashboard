@@ -11,7 +11,7 @@ A sentiment analysis pipeline that processes 14,640 real tweets about US airline
 ---
 
 ## Screenshots
-![Dashboard Overview](screenshots/Airline Sentiment Dashboard · Streamlit.pdf)
+![Dashboard Overview](screenshots/Airline Sentiment Dashboard · Streamlit.png)
 
 ---
 
@@ -22,7 +22,7 @@ A sentiment analysis pipeline that processes 14,640 real tweets about US airline
 - KPI metrics, sentiment distribution pie chart, per-airline grouped bar chart, and tweet explorer
 
 ## Architecture
-![Pipeline](sentiment_pipeline_architecture.pdf)
+![Pipeline](sentiment_pipeline_architecture.png)
 
 `Kaggle CSV → Pandas Preprocessing → RoBERTa Model → Labelled Dataset → Streamlit Dashboard → Streamlit Cloud`
 
