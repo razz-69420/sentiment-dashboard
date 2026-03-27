@@ -11,7 +11,7 @@ A sentiment analysis pipeline that processes 14,640 real tweets about US airline
 ---
 
 ## Screenshots
-![Dashboard Overview](screenshots\dashboard.png)
+![Dashboard Overview](screenshots/dashboard.png)
 
 ---
 
